@@ -13,7 +13,7 @@ module.exports = app => {
     // router.get("/:ticker", securities.findByTicker);
   
     // Retrieve a single Security with id
-    // router.get("/:id", securities.findOne);
+    router.get("/:id", securities.findOne);
   
     // Update a Security with id
     router.put("/:id", securities.update);
