@@ -35,7 +35,6 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to application." });
 });
 
-// require("./routes/tutorial.routes")(app);
 require("./routes/securities.routes")(app);
 
 // set port, listen for requests
